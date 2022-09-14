@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+
+        <div>
+            <ul>
+                <li>
+                    <img src="https://dumbways.id/assets/images/brandred.png" alt="Dumbways logo" width="70px">
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">My Project</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <form>
+            <h1>
+                GET IN TOUCH
+            </h1>
+            
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="" id="name">  
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" name="" id="email">
+            </div>
+            <div>
+                <label for="phone">Your Phone Number</label>
+                <input type="number" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="position">Position</label>
+                <select name="" id="position">
+                    <option value="" hidden>--select--</option>
+                    <option>Frontline</option>
+                    <option>Middleline</option>
+                    <option>Backline</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Your message</label>
+                <textarea name="" id="message" cols="30" rows="8"></textarea>
+            </div>
+            <div class="butonPosition">
+                <button type="button" onclick="submitData()">Submit</button>
+            </div>
+        </form>
+
+        <script src="contact.js"></script>
+
+    </div>
+    
+</body>
+</html>
